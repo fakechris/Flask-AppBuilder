@@ -257,3 +257,6 @@ class RegisterUserOAuthView(BaseRegisterUser):
                                               email=form.email.data)
 
 
+class RegisterUserCASView(BaseRegisterUser):
+    pass
+
